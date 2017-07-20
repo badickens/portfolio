@@ -63,15 +63,21 @@ footer {
 	padding: 10px;
 }
 
+
 /* MEDIA QUERIES */ 
 
-/*  smaller devices (small phones, 397px and up) */
-@media (min-width: 397px) {
+/*  smaller devices (small phones, 355px and up) */
+@media (min-width: 355px) {
 	.title-super {
-		font-size: 40px;   
+		font-size: 30px;   
 	}
 
-
+	
+	.text-right h4 {
+		font-size: 16px;
+	}
+	
+	
 	.col-xs-6 h1 {
 		margin-top: 0;
 	}
@@ -79,8 +85,8 @@ footer {
 	
 	#main-pic .img-header-overlay {
 		position: absolute;
-		top: 50px;
-		left: 40px;
+		top: 40px;
+		left: 25px;
 	}
 	
 	
@@ -110,8 +116,8 @@ footer {
 }
 
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Medium devices (tablets, 748px and up) */
+@media (min-width: 748px) {
 	.title-super {
 		font-size: 39px;   
 	}
